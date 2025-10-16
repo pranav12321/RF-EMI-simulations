@@ -1,0 +1,6 @@
+[submodule "openEMS"]
+	path = openEMS
+	url = https://github.com/thliebig/openEMS.git
+[submodule "femwell"]
+	path = femwell
+	url = https://github.com/HelgeGehring/femwell.git
