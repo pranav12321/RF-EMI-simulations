@@ -5387,6 +5387,28 @@
 		)
 		(uuid "1b5fcd17-02ae-4c43-a1d6-26589bfa33b9")
 	)
+	(hierarchical_label "VCCAUX"
+		(shape input)
+		(at 6.35 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21b96458-8adf-4f00-8869-8f8950004432")
+	)
+	(hierarchical_label "VCCAUX"
+		(shape input)
+		(at 41.91 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31d57267-110d-44a8-876c-9373131cde34")
+	)
 	(hierarchical_label "SPI_CLK"
 		(shape input)
 		(at 49.53 180.34 180)
@@ -5397,6 +5419,17 @@
 			(justify right)
 		)
 		(uuid "3fdb864d-2237-409d-ad08-3261012b01b9")
+	)
+	(hierarchical_label "VCCAUX"
+		(shape input)
+		(at 21.59 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42502900-ac0d-4ea2-a299-59ec306f0ab7")
 	)
 	(hierarchical_label "TMS"
 		(shape input)
@@ -5673,7 +5706,7 @@
 		)
 		(uuid "baeeb256-cd84-4370-958c-fc3d54dfb724")
 	)
-	(hierarchical_label "VCCOAUX"
+	(hierarchical_label "VCCAUX"
 		(shape input)
 		(at 142.24 139.7 180)
 		(effects
@@ -5683,6 +5716,17 @@
 			(justify right)
 		)
 		(uuid "be159de5-22aa-46d4-a7a6-13ae7a1c7d6a")
+	)
+	(hierarchical_label "EXT_CLOCK"
+		(shape output)
+		(at 41.91 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca5c9c85-504d-427e-9b03-15a42d7f2547")
 	)
 	(hierarchical_label "MISO"
 		(shape output)
@@ -5705,6 +5749,28 @@
 			(justify left)
 		)
 		(uuid "cffee721-add0-4aa5-bfc2-c837d3c15090")
+	)
+	(hierarchical_label "EXT_CLOCK"
+		(shape output)
+		(at 36.83 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3f7fb42-93fb-41b5-b22c-7b5ad805305b")
+	)
+	(hierarchical_label "EXT_CLOCK"
+		(shape input)
+		(at 156.21 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6d3da69-473d-41f1-93eb-44af254a6603")
 	)
 	(hierarchical_label "VCCO_1"
 		(shape input)
@@ -6384,6 +6450,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 36.83 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1696d04c-86ea-4571-8786-9e43b6c6d414")
+		(property "Reference" "#PWR040"
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec853572-0b64-4750-bc2f-d288c9ef1c1c")
+		)
+		(instances
+			(project "pll"
+				(path "/1a761ede-a9cd-4cca-ba56-e59a7a4d7b19/7d702454-728b-46af-8b39-cdd9da66f4fb"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 128.27 185.42 0)
 		(unit 1)
@@ -6765,7 +6897,7 @@
 	)
 	(symbol
 		(lib_id "crystal_osc:DSC1004AL1-001.0000")
-		(at 31.75 135.89 0)
+		(at 24.13 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6774,7 +6906,7 @@
 		(fields_autoplaced yes)
 		(uuid "36e9679a-8e81-40fa-918d-a808cedc7eef")
 		(property "Reference" "Y1"
-			(at 31.75 123.19 0)
+			(at 24.13 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,7 +6914,7 @@
 			)
 		)
 		(property "Value" "DSC1004AL1-001.0000"
-			(at 31.75 125.73 0)
+			(at 24.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,7 +6922,7 @@
 			)
 		)
 		(property "Footprint" "crystal_osc:OSC_DSC1004AL1-001.0000"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,8 +6931,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 31.75 135.89 0)
+		(property "Datasheet" "https://www.snapeda.com/parts/DSC1004AL1-001.0000/Microchip/datasheet/"
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +6941,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,7 +6950,7 @@
 			)
 		)
 		(property "MF" "Microchip"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +6960,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9mm"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +6970,7 @@
 			)
 		)
 		(property "Package" "SMD-4 Microchip Technology"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +6980,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +6990,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DSC1004AL1-001.0000/Microchip+Technology/view-part/?ref=eda"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +7000,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +7010,7 @@
 			)
 		)
 		(property "PARTREV" "C"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +7020,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DSC1004AL1-001.0000/Microchip+Technology/view-part/?ref=snap"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,7 +7030,7 @@
 			)
 		)
 		(property "MP" "DSC1004AL1-001.0000"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,7 +7040,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2462960&manufacturer=Microchip&part_name=DSC1004AL1-001.0000&search_term=dsc1004"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +7050,7 @@
 			)
 		)
 		(property "Description_1" "1 MHz XO (Standard) CMOS Oscillator 1.8V ~ 3.3V Standby (Power Down) 4-SMD, No Lead Exposed Pad"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +7060,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,7 +7070,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Microchip Technologoy"
-			(at 31.75 135.89 0)
+			(at 24.13 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,6 +8025,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 36.83 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8757bba4-5ce9-49df-b218-2991c0334608")
+		(property "Reference" "C46"
+			(at 40.64 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15pF"
+			(at 40.64 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 37.7952 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 36.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfd2de1f-9e48-419b-b34b-b22fd1f19b8e")
+		)
+		(pin "2"
+			(uuid "1fb36d8b-aa93-4e32-af98-c0cfc121b74a")
+		)
+		(instances
+			(project "pll"
+				(path "/1a761ede-a9cd-4cca-ba56-e59a7a4d7b19/7d702454-728b-46af-8b39-cdd9da66f4fb"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 58.42 0)
 		(unit 1)
@@ -8512,6 +8714,76 @@
 			(project "pll"
 				(path "/1a761ede-a9cd-4cca-ba56-e59a7a4d7b19/7d702454-728b-46af-8b39-cdd9da66f4fb"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 21.59 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "936ab308-ed68-42c6-9269-1679589b3e5b")
+		(property "Reference" "C44"
+			(at 25.4 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 25.4 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 22.5552 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 21.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "440fc211-f571-4b35-9ffb-ca5d167d7903")
+		)
+		(pin "2"
+			(uuid "5c852e55-ffd4-49d3-b302-6d25d895c8ed")
+		)
+		(instances
+			(project "pll"
+				(path "/1a761ede-a9cd-4cca-ba56-e59a7a4d7b19/7d702454-728b-46af-8b39-cdd9da66f4fb"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -9223,6 +9495,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 41.91 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af6c3dcb-3873-45df-8368-88d46866c905")
+		(property "Reference" "#PWR037"
+			(at 41.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dcc6d39-26ef-4a68-9b77-7e7368a57b39")
+		)
+		(instances
+			(project "pll"
+				(path "/1a761ede-a9cd-4cca-ba56-e59a7a4d7b19/7d702454-728b-46af-8b39-cdd9da66f4fb"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 128.27 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9418,6 +9756,72 @@
 			(project "pll"
 				(path "/1a761ede-a9cd-4cca-ba56-e59a7a4d7b19/7d702454-728b-46af-8b39-cdd9da66f4fb"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f39d6b13-b38e-4ee8-a1e1-7dd14457b270")
+		(property "Reference" "#PWR039"
+			(at 21.59 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a4341fc-fd36-4d02-aa47-a0ac01ee7639")
+		)
+		(instances
+			(project "pll"
+				(path "/1a761ede-a9cd-4cca-ba56-e59a7a4d7b19/7d702454-728b-46af-8b39-cdd9da66f4fb"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
