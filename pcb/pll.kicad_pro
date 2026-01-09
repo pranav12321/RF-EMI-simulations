@@ -635,6 +635,14 @@
     [
       "15b02fdd-7eee-4532-93a1-61532bb4dec6",
       "DUT"
+    ],
+    [
+      "166ae58c-d2c5-43c9-bca5-2160d0e6a919",
+      "pick-off-samplers-coax-connectors"
+    ],
+    [
+      "8f1b2ea9-7ccd-45ff-98b4-bd9213957c1a",
+      "TIA"
     ]
   ],
   "text_variables": {}

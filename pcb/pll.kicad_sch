@@ -368,6 +368,48 @@
 		)
 	)
 	(sheet
+		(at 35.56 144.78)
+		(size 46.99 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "166ae58c-d2c5-43c9-bca5-2160d0e6a919")
+		(property "Sheetname" "pick-off-samplers-coax-connectors"
+			(at 35.56 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "external.kicad_sch"
+			(at 35.56 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pll"
+				(path "/1a761ede-a9cd-4cca-ba56-e59a7a4d7b19"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 119.38 55.88)
 		(size 49.53 20.32)
 		(exclude_from_sim no)
@@ -669,6 +711,48 @@
 			(project "pll"
 				(path "/1a761ede-a9cd-4cca-ba56-e59a7a4d7b19"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 115.57)
+		(size 48.26 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f1b2ea9-7ccd-45ff-98b4-bd9213957c1a")
+		(property "Sheetname" "TIA"
+			(at 156.21 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TIA.kicad_sch"
+			(at 156.21 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pll"
+				(path "/1a761ede-a9cd-4cca-ba56-e59a7a4d7b19"
+					(page "9")
 				)
 			)
 		)

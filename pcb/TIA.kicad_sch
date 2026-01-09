@@ -1,0 +1,473 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b279800d-fc05-455c-9ef7-c6707c9746aa")
+	(paper "A4")
+	(lib_symbols
+		(symbol "TIA:ADA4352-2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T"
+				(at 22.86 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADA4352-2_0_0"
+				(pin unspecified line
+					(at 22.86 40.64 0)
+					(length 2.54)
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 38.1 0)
+					(length 2.54)
+					(name "OUT_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 35.56 0)
+					(length 2.54)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 33.02 0)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 30.48 0)
+					(length 2.54)
+					(name "SW_SEL0_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 27.94 0)
+					(length 2.54)
+					(name "SW_SEL1_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 25.4 0)
+					(length 2.54)
+					(name "SW_SEL1_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 22.86 0)
+					(length 2.54)
+					(name "SW_SEL0_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 20.32 0)
+					(length 2.54)
+					(name "DVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 17.78 0)
+					(length 2.54)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 15.24 0)
+					(length 2.54)
+					(name "OUT_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 22.86 12.7 0)
+					(length 2.54)
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 10.16 0)
+					(length 2.54)
+					(name "-INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 7.62 0)
+					(length 2.54)
+					(name "+INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 5.08 0)
+					(length 2.54)
+					(name "+INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 2.54 0)
+					(length 2.54)
+					(name "-INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADA4352-2_0_1"
+				(rectangle
+					(start 22.86 49.53)
+					(end 55.88 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "TIA:ADA4352-2")
+		(at 99.06 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c1c905f-239b-4fc2-9e48-8eef446417de")
+		(property "Reference" "T1"
+			(at 156.21 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 156.21 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TIA:QFN50P300X300X80-16N"
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4352-2.pdf"
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transimpedance current sense amplifier"
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "413b11f9-d4af-4d41-8cd4-6726d0d2a38d")
+		)
+		(pin "10"
+			(uuid "6915c5ec-1934-4223-9704-c4718b61c8ba")
+		)
+		(pin "3"
+			(uuid "d65f90c9-892c-45ae-afc1-567825d07eaf")
+		)
+		(pin "11"
+			(uuid "3ad3afb4-3525-4b68-864e-11734dd5043b")
+		)
+		(pin "5"
+			(uuid "b279f907-644a-4570-852c-d99e1e722a43")
+		)
+		(pin "15"
+			(uuid "9c172746-4a82-4602-9e4a-88084cebfb88")
+		)
+		(pin "9"
+			(uuid "512233b8-921e-485f-a3ee-9b7ab5de5cd4")
+		)
+		(pin "6"
+			(uuid "00f76e2f-433d-43f1-9a19-53556ea82108")
+		)
+		(pin "16"
+			(uuid "9aef85bf-e102-4637-b71c-6835c97aaacf")
+		)
+		(pin "8"
+			(uuid "12cc061a-df1b-4229-8d36-f16db47ef8c5")
+		)
+		(pin "2"
+			(uuid "dd471fad-aa40-404b-bdcc-d8cb1199c2fa")
+		)
+		(pin "1"
+			(uuid "b4f44c62-2a92-437e-96b7-e415b99d3433")
+		)
+		(pin "12"
+			(uuid "3f40c80c-4991-4bb8-a1bc-ae6bf24360ff")
+		)
+		(pin "7"
+			(uuid "72afb297-3642-49d5-ab21-a13746c225da")
+		)
+		(pin "13"
+			(uuid "b3f27630-068c-4f60-9de0-1cb01fe66ac0")
+		)
+		(pin "14"
+			(uuid "7d78e8c2-ac91-47b0-98cf-f815b57407c9")
+		)
+		(instances
+			(project ""
+				(path "/1a761ede-a9cd-4cca-ba56-e59a7a4d7b19/8f1b2ea9-7ccd-45ff-98b4-bd9213957c1a"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
